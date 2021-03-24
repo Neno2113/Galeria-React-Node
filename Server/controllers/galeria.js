@@ -136,12 +136,12 @@ var controller = {
         //Conseguir nombre y extension del archivo
         var file_path = req.files.file0.path;
      
-        var file_split = file_path.split('/');
+        var file_split = file_path.split('\\');
 
         var file_name = file_split[2];
        
 
-        var extension_split = file_name.split('.');
+        var extension_split = file_name.split('\.');
         
         var file_ext = extension_split[1];
 
